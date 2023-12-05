@@ -2,6 +2,6 @@ FROM openjdk
 
 WORKDIR /app
 
-COPY ahmed.java .
-RUN javac ahmed.java
-CMD java ahmed
+COPY amged.java .
+RUN javac amged.java
+CMD java amged
